@@ -4,11 +4,11 @@ Download model file , place it in flask_backend folder - model link https://gith
 
 ## commands to run 
 
-cd flask_backend
-docker build . -t ai_backend
-docker run -it --rm --network host  ai_backend
+- cd flask_backend
+- docker build . -t ai_backend
+- docker run -it --rm --network host  ai_backend
 
-cd ui
-docker build . -t ui_backend
-docker run -it --rm --network host ui_backend
+- cd ../ui
+- docker build . -t ui_backend
+- docker run -it --rm --network host ui_backend'''
 
